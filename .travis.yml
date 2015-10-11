@@ -8,7 +8,7 @@ notifications:
     on_failure: change
   hipchat:
     on_success: change
-    on_failure: change
+    on_failure: changbe
     template:
     - "%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{message}
       | Details: %{build_url} | Changes: %{compare_url}"
